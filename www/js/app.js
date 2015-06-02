@@ -39,12 +39,12 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
-  .state('app.browse', {
-    url: "/browse",
+  .state('app.sms', {
+    url: "/sms",
     views: {
       'menuContent': {
-        templateUrl: "templates/browse.html",
-        contoller: 'BrowseCtrl'
+        templateUrl: "templates/sms.html",
+        contoller: 'SmsCtrl'
       }
     }
   })
