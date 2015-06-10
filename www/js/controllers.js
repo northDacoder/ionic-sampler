@@ -44,7 +44,7 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('BrowseCtrl', function($scope) {
+.controller('SmsCtrl', function($scope) {
     var app = {
         sendSms: function() {
             var number = document.getElementById('numberTxt').value;
